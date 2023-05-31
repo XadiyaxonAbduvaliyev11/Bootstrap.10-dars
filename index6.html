@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/praktika6.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row my-5">
+        <div class="col-md-6 ">
+            <button class="btn btn-light dropdown-toggle w-100" data-toggle="collapse" data-target="#collaps">Personal Information</button>
+            <form action="#" id="collaps">
+                <div class="form-group">
+                    <label for="ac">Account name</label>
+                    <input type="text" id="ac" class="form-control" placeholder="Account name">
+                </div>
+                <div class="form-group">
+                    <label for="b">User name</label>
+                    <input type="text" id="b" class="form-control" placeholder="User name">
+                </div>
+                <h6 class="text-secondary">Sizning tizimdagi accountingiz https://pinup.uz/account/ <span class="text-dark">account Name</span></h6>
+                <div class="form-group">
+                    <label for="bc">Email adress</label>
+                    <input type="email" id="bc" class="form-control" placeholder="Email adress">
+                </div>
+                <div class="form-group float-left">
+                    <label for="gbd">Password</label>
+                    <input type="password" id="gbd" class="form-control" placeholder="Your password">
+                </div>
+                <div class="form-group float-right">
+                    <label for="as">Confirm password</label>
+                    <input type="password" id="as" class="form-control" placeholder="Confirm password">
+                </div>
+            </form>
+            <button class="btn btn-light dropdown-toggle w-100 my-3" data-toggle="collapse" data-target="#collapse">Billing Information</button>
+            <form action="#" id="collapse">
+                <div class="form-group float-left">
+                    <label for="aaaa">Name</label>
+                    <input type="text" id="aaaa" class="form-control" placeholder="Name">
+                </div>
+                <div class="form-group float-left" style="margin-left: 125px">
+                    <label for="abaa">Surname</label>
+                    <input type="text" id="abaa" class="form-control" placeholder="Surname">
+                </div>
+                <div class="form-group">
+                    <label for="abcc">Company name</label>
+                    <input type="text" id="abcc" class="form-control" placeholder="Company name">
+                </div>
+                <div class="form-group">
+                    <label for="abcdda">Email adress</label>
+                    <input type="email" id="abcdda" class="form-control" placeholder="Email adress">
+                </div>
+                <div class="form-group">
+                    <label for="babd">Country</label>
+                    <select name="dist" class="form-control" id="babd">
+                        <option value="0">Select one</option>
+                        <option value="1">Uzbekistan</option>
+                        <option value="2">Argentina</option>
+                        <option value="3">Brazil</option>
+                        <option value="4">England</option>
+                        <option value="5">Egypt</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="abcddaa">Adress line 1</label>
+                    <input type="text" id="abcddaa" class="form-control" placeholder="Your adress">
+                </div>
+                <div class="form-group">
+                    <label for="abcddaaa">Adress line 2</label>
+                    <input type="text" id="abcddaaa" class="form-control" placeholder="Your adress">
+                </div>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <button class="btn btn-light dropdown-toggle w-100" data-toggle="collapse" data-target="#collapes">Profile image & cover</button>
+            <div class="boxes" id="collapes">
+                <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" class="rounded-circle img-fluid" style="width: 100px; height: 100px" alt="">
+                <div class="box" style="margin-left: 180px; margin-top: -100px;">
+                    <h4>Profile image</h4>
+                    <p>JPG, GIF or PNG 100x100px</p>
+                    <button class="btn btn-success" style="margin-left: 220px; margin-top: -125px">Upload image</button>
+                </div>
+            </div>
+
+            <button class="btn btn-light dropdown-toggle w-100 my-3" data-toggle="collapse" data-target="#www">Social Profile</button>
+            <div class="beha" id="www">
+                <div class="input-group">
+                    <i class='bx bxl-facebook-circle' style='color:#0044ff; font-size: 30px'  ></i>
+                    <input type="text" class="w-75" placeholder="ex:www.facebook.com/username">
+                </div>
+                <div class="input-group mt-3">
+                    <i class='bx bxl-telegram' style='color:deepskyblue; font-size: 30px' ></i>
+                    <input type="text" class="w-75" placeholder="ex:www.facebook.com/username">
+                </div>
+                <div class="input-group mt-3">
+                    <i class='bx bxl-twitter' style='color:dodgerblue; font-size: 30px'></i>
+                    <input type="text" class="w-75" placeholder="ex:www.facebook.com/username">
+                </div>
+                <div class="input-group mt-3">
+                    <i class='bx bxl-instagram-alt' style='color:darkmagenta; font-size: 30px' ></i>
+                    <input type="text" class="w-75" placeholder="ex:www.facebook.com/username">
+                </div>
+            </div>
+            <button class="btn btn-light my-3 dropdown-toggle w-100" data-toggle="collapse" data-target="#ddd">Content Settings</button>
+            <div class="bilolxon" id="ddd">
+                <div class="input-group w-75" style="margin-left: 150px">
+                    <input type="checkbox" class="text-secondary">
+                    <span>
+                    Telefon raqamni yashirish
+                </span>
+                    <p class="text-secondary" style="margin-left: 12px">
+                        Telefon raqamni ko'rstatish yoki yashirish
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
